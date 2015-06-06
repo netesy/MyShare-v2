@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/new/images">
+        <file>Images/archive-48.png</file>
+        <file>Images/audio_wave-48.png</file>
+        <file>Images/categorize-48.png</file>
+        <file>Images/exe-48.png</file>
+        <file>Images/film_2-48.png</file>
+        <file>Images/gallery-48.png</file>
+        <file>Images/hdd-48.png</file>
+        <file>Images/image_file-48.png</file>
+        <file>Images/record-48.png</file>
+        <file>Images/software_box-48.png</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>Images/background.png</file>
+        <file>Images/logo.png</file>
+        <file>Images/logo[black].png</file>
+        <file>Images/logo[green].png</file>
+        <file>Images/logo[red].png</file>
+    </qresource>
+</RCC>
