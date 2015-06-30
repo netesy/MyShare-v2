@@ -2,6 +2,7 @@
 #define SETTINGS_H
 
 #include <QWidget>
+#include <QSettings>
 
 namespace Ui {
 class Settings;
@@ -13,6 +14,11 @@ class Settings : public QWidget
 
 public:
     explicit Settings(QWidget *parent = 0);
+    void SaveSettings();
+    void LoadSettings();
+    bool isSet();
+    QString Folder();
+
     ~Settings();
 
 private slots:

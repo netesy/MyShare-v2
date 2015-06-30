@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QFileSystemModel>
 
 //#include "config.h.in"
 
@@ -27,6 +28,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    QFileSystemModel *dirModel;
+    QFileSystemModel *fileModel;
 };
 
 #endif // MAINWINDOW_H
