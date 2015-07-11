@@ -10,6 +10,7 @@
         <file>Images/image_file-48.png</file>
         <file>Images/record-48.png</file>
         <file>Images/software_box-48.png</file>
+        <file>Images/drawing.svg</file>
     </qresource>
     <qresource prefix="/images">
         <file>Images/background.png</file>

@@ -36,7 +36,7 @@ About::About(QWidget *parent) :
     ui->setupUi(this);
     ui->textBrowser->hide();
     this->setWindowFlags(Qt::FramelessWindowHint);
-    ui->logo->setPixmap(QPixmap(":/images/images/logo.png").scaled(128, 128));
+    ui->logo->setPixmap(QPixmap(":/new/images/Images/drawing.svg").scaled(100, 328));
     ui->appname->setText(PROJECT_TITLE);
     ui->version->setText(QString("Version %1").arg(PROJECT_VERSION));
     ui->disc->setText(PROJECT_DESCRIPTION);
